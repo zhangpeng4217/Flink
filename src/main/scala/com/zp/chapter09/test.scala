@@ -10,7 +10,7 @@ object test {
          |    where status = 1
          |    and status = 2
          |    and status = 3
-         |    and status = 4
+         |    and status = 5
          |""".stripMargin
     println(slice_t1)
   }
