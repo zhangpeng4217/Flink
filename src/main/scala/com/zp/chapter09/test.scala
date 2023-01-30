@@ -9,6 +9,8 @@ object test {
          |    from bigdata_center.slice_t1_config
          |    where status = 1
          |    and status = 2
+         |    and status = 3
+         |    and status = 4
          |""".stripMargin
     println(slice_t1)
   }
