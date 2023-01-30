@@ -8,6 +8,7 @@ object test {
          |       ,sql_txt
          |    from bigdata_center.slice_t1_config
          |    where status = 1
+         |    and status = 2
          |""".stripMargin
     println(slice_t1)
   }
